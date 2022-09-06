@@ -1,0 +1,541 @@
+    
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .container {
+        display: flex;
+        font-size: 12px;
+        font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Sans-serif !important;;
+        margin: -6px;
+        margin-left: -55px;
+    }
+
+    .container2 {
+        display: flex;
+        margin-left: -43px;
+    }
+
+    .container3 {
+        display: flex;
+        place-content: center;
+        padding: 5px;
+    }
+
+    .container4 {
+        display: flex;
+        margin-left: 288px;
+        margin-top: -110px;
+    }
+
+    .container5 {
+        display: flex;
+        justify-content: center;
+        margin-left: -70px;
+    }   
+
+    .left-links {
+        padding-left: 335px;
+    }
+
+    
+
+    .right-links {
+        display: flex;
+        padding-left: 751px;
+    }
+
+    .right-links div {
+
+        padding-left: 10px;
+    }
+
+    hr {
+        opacity: 0.3;
+        
+    }
+
+    .links {
+        padding-top: 5px;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #000;
+        padding-left: 10px;
+    }
+
+    .link:hover {
+        text-decoration: underline;
+    }
+
+
+    .icons {
+    font-size: 20px;
+    }
+    
+   .link-Singin {
+    color: #0654ba;
+   }
+   .link-register {
+    color: #0654ba;
+   }
+
+   .Ship-to:hover {
+    color: #0654ba;
+    text-decoration: none;
+   }
+
+   .Watchlist:hover {
+    text-decoration: none;
+   }
+
+   .My-Ebay:hover {
+    text-decoration: none;
+   }
+
+   .ebay-logo {
+    width: 124px;
+   }
+
+   .logo {
+    margin-left: 330px;
+    margin-top: -3px;
+   }
+
+   .logo-link {
+    width: 66px;
+    margin-top: 16px;
+    margin-left: 15px;
+   }
+
+   .logo-link + div {
+    margin-top: 26px;
+   }
+
+   .shop-by {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Sans-serif !important;;
+    opacity: 0.8;
+   }
+
+   .shop-by:hover {
+    color: #0654ba;
+   }
+
+   .topnav {
+    margin-top: 12px;
+    margin-left: 10px;
+   }
+
+
+   .search-box {
+    width: 700px;
+    height: 40px;
+    border: solid;
+    border-block-end-width: 2px;
+    border-block-start-width: 2px;
+    border-inline-end-style: none;
+    border-inline-start-width: 2px;
+    font-size: 16px;
+    
+   }
+
+   .all-categories {
+    margin-top: 12px;
+    width: 110px;
+    height: 46px;
+    border: solid;
+    border-block-end-width: 2px;
+    border-block-start-width: 2px;
+    border-inline-end-width: 2px;
+    border-inline-start-width: 1px;
+    
+     
+   }
+
+   .icon-margin {
+    margin-left: -24px;
+   }
+
+   .search-button {
+    background-color: #3665f3;
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 173px;
+    height: 65%;
+    
+   }
+
+   .search {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 58px;
+    margin-top: 13px;
+    font-size: 17px;
+   }
+
+   .advenced {
+    margin-left: 186px;
+    display: flex;
+    margin-top: -22px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #767676;
+   }
+
+   .advenced:hover {
+    color: #3665f3;
+   }
+
+   .categories:visited {
+    border: solid 2px;
+    border-radius: 5px;
+    border-spacing: -2px;
+   }
+   .categories:active {
+    border: solid 2px;
+    border-radius: 5px;
+    border-spacing: -2px;
+   }
+
+   #hr1 {
+    width: 100%;
+   }
+
+   #hr2 {
+    width: 74%;
+    opacity: 0.4;
+   }
+
+   .fa-heart {
+    color: #000;
+    font-size: 10px;
+    padding-right: 5px;
+   }
+
+   .container3 a {
+    text-decoration: none;
+    color: #555
+   }
+
+   .container3 span {
+    border-bottom: solid 2px #555;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 7px;
+   }
+
+   .container3 a:hover {
+    text-decoration: underline;
+    color: #0654ba;
+   }
+
+   .container3 span, a {
+    margin-left: 13px;
+   }
+
+   .background {
+    background-image: url("Ebay-background-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:69vw;
+    height:50vh;
+    margin-top: -5px;
+    margin-left: 268px;
+   }
+
+   .background-title {
+    margin: 0;
+    color: #fff;
+    width: 344px;
+    padding: 19px;
+    font-size: 40px;
+    font-family:"Market Sans", Arial, sans-serif;
+   }
+
+   .background-text {
+    font-family: "Market Sans", Arial, sans-serif;
+    color: #fff;
+    width: 278px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: -7px;
+   }
+
+   
+
+   .background-button {
+    display: inline-block;
+    width: 202px;
+    height: 49px;
+    border: solid 2px #fff;
+    margin-left: 17px;
+    margin-top: 11px;
+    color: #fff;
+    font-family: "Market Sans", Arial, sans-serif;
+    font-size: 23px;
+   }
+
+   .btn-link {
+    margin-left: 20px;
+   }
+
+   .fa-arrow-right {
+    margin-left: 5px;
+   }
+
+   .btn-primary {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 163px;
+    height: 42px;
+    margin-top: 9px;
+    display: inline-block;
+    padding-top: 13px;
+    padding-left: 14px;
+    font-size: 22px;
+    transition-duration: .9s
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #fff;
+}
+
+.subtitle-link {
+    margin-top: -3px;
+    margin-left: 20px;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.subtitle-link a {
+    color: #000;
+    text-decoration: none;
+}
+
+.subtitle_link {
+    color: #000;
+    text-decoration: none;
+}
+
+.subtitle_link:hover {
+    text-decoration: underline;
+}
+
+.subtitle-link:hover {
+    text-decoration: underline;
+}
+ 
+.border-left {
+    border: solid 2px rgb(223, 220, 220);
+    border-width: 0px 0px 0px 2px;
+    display: inline-block;
+    margin-left: 26px;
+    height: 22px;
+    margin-top: 24px;
+}  
+
+.container5 img {
+    width: 134px;
+    margin-left: 40px;
+}
+
+#container-5 img{
+    width: 134px;
+    margin-left: 40px;
+}
+
+
+
+.container5-links {
+    display: flex;
+    margin-left: 326px;
+    margin-top: 10px;
+}
+
+#container-5 {
+    display: flex;
+    margin-left: 301px;
+    margin-top: 10px;
+}
+
+.dailydeals-links {
+    display: flex;
+    margin-left: 224px;
+    margin-top: 10px;
+}
+
+.container5-links a {
+    margin: 0px 61px;
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.dailydeals-links a {
+    margin: 0px 80px;
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    font-weight: bold;
+}
+
+#links-2 {
+    display: flex;
+    margin: 0px 313px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    font-weight: bold;
+}
+
+#links-2 a {
+    margin: 0px 45px;
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container5-links a:hover {
+    text-decoration: underline;
+}
+
+#links-2 a:hover {
+    text-decoration: underline;
+}
+
+#container-5 img:hover {
+    border: solid 1px rgb(220, 188, 188);
+    border-radius: 50%;
+}
+
+
+.container5 img:hover {
+    border: solid 1px rgb(220, 188, 188);
+    border-radius: 50%;
+}
+
+.dailydeals-links a:hover {
+    text-decoration: underline;
+}
+
+.dailydeals-costlist a:hover {
+    text-decoration: underline;
+}
+
+.dailydeals-container {
+    text-align: center;
+}
+
+.dailydeals-container img {
+    width: 170px;
+    margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px;
+    
+}
+
+.dailydeals-costlist {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 232px;
+}
+
+.dailydeals-costlist a {
+    text-decoration: none;
+    color: #000;
+    font-size: small;
+    opacity: 0.6;
+    margin-right: 75px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    list-style: none;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: #767676;
+    margin-left: 0px;
+}
+
+footer li {
+    margin: 10px 3px 3px 0px;
+}
+
+footer i { 
+    margin-right: 5px;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+.buy-links h3 {
+    font-size: 18px;
+}
+  
+#nationals {
+    width: 135px;
+    height: 27px;
+    background-color:#f5f1f1;
+}
+
+.footer-info {
+    color: #707070;
+    font-weight: bold;
+    font-size: smaller;
+    margin-left: 421px;
+    margin-bottom: 147px;
+}
+
+.footer-info a {
+    color: #707070;
+    margin: 0px 2px;
+    opacity: 0.8;
+}
+
+.footer-info i {
+    margin-left: 3px;
+}
+.scroll-up {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -8px;
+    margin-top: -150px;
+}
+
+.backto-top {
+background-color: #fff;
+border: solid 0.5px black;
+transition: color .6s;
+
+}
+
+.backto-top:hover {
+    color: #0654ba;
+}
+
+.fa-angle-up {
+    height: 25px;
+    margin-top: 6px;
+    
+}
